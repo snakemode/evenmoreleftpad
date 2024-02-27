@@ -1,3 +1,3 @@
-export function evenMoreLeftPad (str: string, len: number, ch: string = ' ') {
-  return str + ch.repeat(len - str.length)
+export function evenMoreLeftPad (str: string, len: number, ch: string = ' '): string {
+  return ch.repeat(len) + str;
 }
