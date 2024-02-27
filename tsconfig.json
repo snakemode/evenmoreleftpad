@@ -1,0 +1,30 @@
+{
+  "include": [ "./src" ],
+  "exclude": ["./*.config.js", "./*.config.ts", "node_modules/*", "tsconfig.json", "./dist/*" ],
+  
+  "compilerOptions": {
+    "target": "ES6",
+    "useDefineForClassFields": true,
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "allowJs": false,
+    "skipLibCheck": false,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceRoot": "./src",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "sourceMap": true,
+    "declaration": true
+  }
+}
